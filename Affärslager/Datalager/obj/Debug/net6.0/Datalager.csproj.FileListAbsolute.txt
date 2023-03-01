@@ -1,0 +1,5 @@
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Datalager\obj\Debug\net6.0\Datalager.csproj.AssemblyReference.cache
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Datalager\obj\Debug\net6.0\Datalager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Datalager\obj\Debug\net6.0\Datalager.AssemblyInfoInputs.cache
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Datalager\obj\Debug\net6.0\Datalager.AssemblyInfo.cs
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Datalager\obj\Debug\net6.0\Datalager.csproj.CoreCompileInputs.cache

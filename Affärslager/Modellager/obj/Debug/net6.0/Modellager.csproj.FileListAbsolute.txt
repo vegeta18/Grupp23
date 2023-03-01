@@ -1,0 +1,12 @@
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\bin\Debug\net6.0\Modellager.deps.json
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\bin\Debug\net6.0\Modellager.dll
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\bin\Debug\net6.0\Modellager.pdb
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\obj\Debug\net6.0\Modellager.csproj.AssemblyReference.cache
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\obj\Debug\net6.0\Modellager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\obj\Debug\net6.0\Modellager.AssemblyInfoInputs.cache
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\obj\Debug\net6.0\Modellager.AssemblyInfo.cs
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\obj\Debug\net6.0\Modellager.csproj.CoreCompileInputs.cache
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\obj\Debug\net6.0\Modellager.dll
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\obj\Debug\net6.0\refint\Modellager.dll
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\obj\Debug\net6.0\Modellager.pdb
+C:\Users\Musa\Desktop\oosu2 2023\G23\Grupp23\Affärslager\Modellager\obj\Debug\net6.0\ref\Modellager.dll
