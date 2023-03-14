@@ -12,9 +12,9 @@ namespace Datalager
     public class UnitOfWork : IUnitOfWork
     {
         private readonly BibliotekContext _context;
-        public IExpiditRepository Expiditer { get; private set; }
+        public IExpeditRepository Expediter { get; private set; }
         public IFakturaRepository Fakturor { get; private set; }
-        public IBöckerRepository Böckers { get; private set; }
+        public IBokRepository Böcker { get; private set; }
         public IBokningRepository Bokningar { get; private set; }
         public IMedlemRepository Medlemmar { get; private set; }    
 
@@ -23,9 +23,9 @@ namespace Datalager
         public UnitOfWork(BibliotekContext context)
         {
             _context = context;
-            Expiditer = new ExpiditRepository(_context);
+            Expediter = new ExpeditRepository(_context);
             Medlemmar = new MedlemRepository(_context);
-            Böckers = new BöckerRepository(_context);
+            Böcker = new BokRepository(_context);
             Fakturor = new FakturaRepository(_context);
             Bokningar = new BokningRepository(_context);
         }

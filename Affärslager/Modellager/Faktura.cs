@@ -8,12 +8,18 @@ namespace Modellager
 {
     public class Faktura
     {
-        public int FakturaID { get; set; } 
-        public decimal Summa { get; set; }
-        public DateTime StartDatum { get; set; }
-        public DateTime SlutDatum { get; set; }
-        public DateTime FakturaSlutDatum { get; set; }
-        public Bokning Bokning { get; set; }
-        public Böcker Böcker { get; set; }  
+        public int FakturaNummer { get; private set; }
+        public int BokningsID { get; private set; }
+        public decimal Summa { get; private set; }
+        public DateTime ÅterlämnadDatum { get; private set; }
+
+        public Faktura(int bokningsid, decimal summa, DateTime återlämnaddatum)
+        {
+            FakturaNummer = maxNummer++;
+            BokningsID = bokningsid;
+            Summa = summa;
+            ÅterlämnadDatum = återlämnaddatum;
+        }
+        private static int maxNummer = 1;
     }
 }

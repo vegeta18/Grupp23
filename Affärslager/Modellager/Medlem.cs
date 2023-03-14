@@ -8,11 +8,15 @@ namespace Modellager
 {
     public class Medlem
     {
-        public int MedlemsID { get; set; } 
-        public string Namn { get; set; }
-        public int Telefonnummer { get; set; }
-        public string Epost { get; set; }   
+        public int MedlemsID { get; private set; }
 
-        public Bokning Bokning { get; set; }    
+        public Medlem(int medlemsid, string fnamn, string enamn, string telenr, string email)
+        {
+            MedlemsID = medlemsid;
+            Fnamn = fnamn;
+            Enamn = enamn;
+            TeleNr = telenr;
+            Email = email;
+        }
     }
 }

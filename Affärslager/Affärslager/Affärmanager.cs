@@ -16,14 +16,14 @@ namespace Affärslager
 
         #region Expidit
 
-        public List<Expidit> GetExpiditer() //hämtar alla expiditer i lista, för att man senare ska kunna välja en av de
+        public List<Expedit> GetExpediter() //hämtar alla expiditer i lista, för att man senare ska kunna välja en av de
         {
-            return unitOfWork.Expiditer.GetAll().ToList();
+            return unitOfWork.Expediter.GetAll().ToList();
         }
 
-        public Expidit GetExpidit(int AnställningsNr) //Hämtar specifik expidit
+        public Expedit GetExpedit(int AnställningsID) //Hämtar specifik expidit
         {
-            return unitOfWork.Expiditer.Get(AnställningsNr);
+            return unitOfWork.Expiditer.Get(AnställningsID);
         }
 
 
@@ -43,20 +43,20 @@ namespace Affärslager
         #endregion
 
         #region Bok
-        public List<Böcker> GetBöcker()
+        public List<Bok> GetBöcker()
         {
-            return unitOfWork.Böckers.GetAll().ToList();
+            return unitOfWork.Böcker.GetAll().ToList();
         }
 
-        public Böcker GetBok(string ISBNnummer)
+        public Bok GetBok(string ISBNnummer)
         {
-            return unitOfWork.Böckers.Get(ISBNnummer);
+            return unitOfWork.Böcker.Get(ISBNnummer);
         }
 
         public void RemoveBok(string ISBNnummer)
         {
-            var removeBok = unitOfWork.Böckers.Get(ISBNnummer);
-            unitOfWork.Böckers.Remove(removeBok); //Dubbelkolla varför den snear
+            var removeBok = unitOfWork.Böcker.Get(ISBNnummer);
+            unitOfWork.Böcker.Remove(removeBok); //Dubbelkolla varför den snear
             unitOfWork.Save();
         }
 

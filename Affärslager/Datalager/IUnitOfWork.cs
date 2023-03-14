@@ -11,10 +11,10 @@ namespace Datalager
     public interface IUnitOfWork : IDisposable
     {
         IBokningRepository Bokningar { get; }
-        IBöckerRepository Böckers { get; }
+        IBokRepository Böcker { get; }
         IMedlemRepository Medlemmar { get; }
         IFakturaRepository Fakturor { get; }
-        IExpiditRepository Expiditer { get; }
+        IExpeditRepository Expediter { get; }
 
         int Save();
     }

@@ -14,9 +14,9 @@ namespace Datalager
     { 
 
         //INTE KLAR SE KOMMENTAR
-        public DbSet<Böcker> Böckers { get; set; }
+        public DbSet<Bok> Böcker { get; set; }
         public DbSet<Bokning> Bokningar { get; set; }
-        public DbSet<Expidit> Expiditer { get; set; }
+        public DbSet<Expedit> Expediter { get; set; }
         public DbSet<Faktura> Fakturor { get; set; }
         public DbSet<Medlem> Medlemmar { get; set; }
 
